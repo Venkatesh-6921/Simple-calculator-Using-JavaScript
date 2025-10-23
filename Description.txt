@@ -1,15 +1,6 @@
-Simple Calculator Using JavaScript is a lightweight, responsive, and beginner-friendly web application that allows users to perform basic arithmetic operations including addition, subtraction, multiplication, division, and remainder calculations. Built with HTML5, CSS3, and JavaScript (ES6), it demonstrates real-time DOM manipulation, event handling, and responsive design using flexbox and modern CSS techniques. This project is ideal for beginners learning web development and JavaScript fundamentals, while also providing a clean, interactive, and visually appealing calculator that works seamlessly on desktops, tablets, and mobile devices.
+Simple Calculator Using JavaScript is a lightweight, responsive, and beginner-friendly web application that allows users to perform basic arithmetic operations including addition, subtraction, multiplication, division, and remainder calculations. 
+Built with HTML5, CSS3, and JavaScript (ES6), it demonstrates real-time DOM manipulation, event handling, and responsive design using flexbox and modern CSS techniques.
+This project is ideal for beginners learning web development and JavaScript fundamentals, while also providing a clean, interactive, and visually appealing calculator that works seamlessly on desktops, tablets, and mobile devices.
 
 Live Demo: https://venkatesh-6921.github.io/Simple-Calculator-Using-JavaScript/
 
-If you want, I can now update your full README.md with:
-
-This long description at the top
-
-Live Demo section
-
-Features
-
-Future Development
-
-Note for checking your other repositories
