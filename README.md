@@ -66,7 +66,7 @@ Simple Calculator Using JavaScript/
 ## 🌐 Live Demo
 
 Check out the live calculator here:  
-[Live Calculator](https://Venkatesh-6921.github.io/Simple-Calculator-Using-JavaScript/)
+[Live Calculator](https://venkatesh-6921.github.io/Simple-calculator-Using-JavaScript/)
 
 ---
 
