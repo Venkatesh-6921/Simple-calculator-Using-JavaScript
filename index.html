@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Practice Of javascript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="inside-container">
+            <h1>Simple Calculator For Two Numbers</h1>
+            <p> For Addition Click +<br>
+                For Subraction Click -<br>
+                For Multipication Click x<br>
+                For Division Click ÷<br>
+                For Division Remainder Click %<br><br>
+            </p>
+        </div>
+        <div class="inside-container2">
+            <form>
+                <div class="input">
+                    Enter Your First Number <input type="number" id="Num1" required><br><br>
+                    Enter Your Second Number <input type="number" id="Num2" required><br><br>
+                </div>
+                <button onclick="add()" class="button">+</button>
+                <button onclick="sub()" class="button">-</button>
+                <button onclick="Mul()" class="button">X</button>
+                <button onclick="Div()" class="button">÷</button>
+                <button onclick="Rem()" class="button">%</button><br><br>
+            </form>
+            <p id="con"></p>
+        </div>
+    </div>
+
+    <script>
+        function add() {
+
+            let a = +(document.getElementById('Num1').value);
+            let b = +(document.getElementById('Num2').value);
+
+            document.getElementById('Num1').value = "";
+            document.getElementById('Num2').value = "";
+
+            document.getElementById("con").innerHTML = "The Addition is " + (a + b);
+        }
+
+        function sub() {
+            let j = +(document.getElementById('Num1').value);
+            let k = +(document.getElementById('Num2').value);
+
+            document.getElementById('Num1').value = "";
+            document.getElementById('Num2').value = "";
+
+            document.getElementById("con").innerHTML = "The Subraction is " + (j - k);
+        }
+
+        function Mul() {
+            let x = +(document.getElementById('Num1').value);
+            let y = +(document.getElementById('Num2').value);
+
+            document.getElementById('Num1').value = "";
+            document.getElementById('Num2').value = "";
+
+            document.getElementById("con").innerHTML = "The Multipication is " + (x * y);
+
+        }
+
+        function Div() {
+            let c = +(document.getElementById('Num1').value);
+            let d = +(document.getElementById('Num2').value);
+
+            document.getElementById('Num1').value = "";
+            document.getElementById('Num2').value = "";
+
+
+            document.getElementById("con").innerHTML = "The Divison is " + (c / d);
+            ;
+        }
+
+        function Rem() {
+            let p = +(document.getElementById('Num1').value);
+            let q = +(document.getElementById('Num2').value);
+
+            document.getElementById('Num1').value = "";
+            document.getElementById('Num2').value = "";
+
+
+            document.getElementById("con").innerHTML = "The Remainder is " + (p % q);
+        }
+
+    </script>
+
+</body>
+
+</html>

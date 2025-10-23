@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body to center everything */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;              /* Full screen height */
+  background: linear-gradient(135deg, #e0e7ff, #f0f9ff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container for all your content */
+.container {
+  width: 90%;
+  max-width: 1000px;           /* Limits stretch on large screens */
+  background: white;
+  border-radius: 20px;         /* Curved borders */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.inside-container{
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0,0,0.1);
+}
+
+.inside-container h1{
+    padding: 10px;
+}
+
+.inside-container p{
+    padding: 10px;
+}
+
+
+.inside-container2{
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0,0,0.159);
+    margin-top: 20px;
+}
+
+.button{
+    border-radius:5px;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0,0,0.159);
+    padding:15px;
+    align-items: center;
+}
+
+.input input{
+    border-radius:5px;
+    height: fit-content;
+}
+
+/* Makes it responsive and fluid */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+}
