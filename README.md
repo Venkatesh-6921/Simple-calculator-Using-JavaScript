@@ -63,6 +63,13 @@ Simple Calculator Using JavaScript/
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live calculator here:  
+[Live Calculator](https://Venkatesh-6921.github.io/Simple-Calculator-Using-JavaScript/)
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
